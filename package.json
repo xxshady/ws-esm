@@ -1,6 +1,6 @@
 {
   "name": "ws-esm",
-  "version": "8.2.6",
+  "version": "8.2.7",
   "description": "Node js ws fork, fully converted to esm module",
   "homepage": "https://github.com/xxshady/ws-esm",
   "bugs": "https://github.com/xxshady/ws-esm/issues",
