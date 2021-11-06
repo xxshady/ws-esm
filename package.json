@@ -6,9 +6,9 @@
   "bugs": "https://github.com/xxshady/ws-esm/issues",
   "repository": "xxshady/ws-esm",
   "author": "Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)",
-  "main": "./ws-esm/index.js",
+  "main": "ws-esm/index.js",
   "files": [
-    "./ws-esm/**/*"
+    "ws-esm"
   ],
   "license": "MIT",
   "scripts": {
