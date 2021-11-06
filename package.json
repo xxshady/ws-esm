@@ -1,0 +1,29 @@
+{
+  "name": "ws-esm",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xxshady/ws-esm",
+  "bugs": "https://github.com/xxshady/ws-esm/issues",
+  "repository": "websockets/ws",
+  "author": "Einar Otto Stangvik <einaros@gmail.com> (http://2x.io)",
+  "main": "ws-esm/node_modules/ws/index.js",
+  "files": [
+    "ws-esm/node_modules/ws/**/*"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "convert-ws": "cjstoesm \"./node_modules/ws/**/*\" ./ws-esm",
+    "test:build": "node --es-module-specifier-resolution=node test/build.js",
+    "test:run": "node --es-module-specifier-resolution=node test/dist.js"
+  },
+  "devDependencies": {
+    "cjstoesm": "^1.1.4",
+    "esbuild": "^0.13.12",
+    "typescript": "^4.4.4",
+    "ws": "^8.2.3"
+  },
+  "type": "module",
+  "browser": "ws-esm/node_modules/ws/browser.js",
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
