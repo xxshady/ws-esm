@@ -10,11 +10,15 @@
   "files": [
     "ws-esm"
   ],
+  "types": "types/index.d.ts",
   "license": "MIT",
   "scripts": {
     "convert-ws": "cjstoesm \"./node_modules/ws/**/*\" ./ws-esm",
     "test:build": "node --es-module-specifier-resolution=node test/build.js",
     "test:run": "node --es-module-specifier-resolution=node test/dist.js"
+  },
+  "dependencies": {
+    "@types/node": "*"
   },
   "devDependencies": {
     "cjstoesm": "^1.1.4",
